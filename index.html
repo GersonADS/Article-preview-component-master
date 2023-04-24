@@ -8,6 +8,10 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/variables.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
   <title>Frontend Mentor | Article preview component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -25,39 +29,50 @@
 
 <style>
 </style>
+
 <body>
 
   <div class="container">
+
     <main class="main">
-      <h1>
-        Shift the overall look and feel by adding these wonderful
-        touches to furniture in your home
-      </h1>
-      <p>
-        Ever been in a room and felt like something was missing? Perhaps
-        it felt slightly bare and uninviting. I’ve got some simple tips
-        to help you make any room feel complete.
-      </p>
-      <section class="description">
+      <div class="image-area">
+        <img src="./images/drawers.jpg" alt="Image of drawers">
+      </div>
 
-        <div class="avatar">
-          <img src="./images/avatar-michelle.jpg" alt="Image of a woman">
-        </div>
+      <div class="informative-area">
 
-        <h4>Michelle Appleton</h4>
-        <p>28 Jun 2020</p>
+        <h1>
+          Shift the overall look and feel by adding these wonderful
+          touches to furniture in your home
+        </h1>
+        <p>
+          Ever been in a room and felt like something was missing? Perhaps
+          it felt slightly bare and uninviting. I’ve got some simple tips
+          to help you make any room feel complete.
+        </p>
 
-        <div class="share">
-          <img src="./images/icon-share.svg" alt="Share icon">
-          <div class="share-text">
-            <p>SHARE</p>
-            <img src="./images/icon-facebook.svg" alt="Facebook icon">
-            <img src="./images/icon-twitter.svg" alt="Twitter icon">
-            <img src="./images/icon-pinterest.svg" alt="Pinterest icon">
+        <section class="description">
+
+          <div class="avatar">
+            <img src="./images/avatar-michelle.jpg" alt="Image of a woman">
           </div>
-        </div>
 
-      </section>
+          <h4>Michelle Appleton</h4>
+          <p>28 Jun 2020</p>
+
+          <div class="share">
+            <img src="./images/icon-share.svg" alt="Share icon">
+            <div class="share-text">
+              <p>SHARE</p>
+              <a href="#"><img src="./images/icon-facebook.svg" alt="Facebook icon"></a>
+             <a href="#"> <img src="./images/icon-twitter.svg" alt="Twitter icon"></a>
+              <a href="#"><img src="./images/icon-pinterest.svg" alt="Pinterest icon"></a>
+            </div>
+          </div>
+
+        </section>
+
+      </div>
 
     </main>
 
