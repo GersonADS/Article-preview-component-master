@@ -1,0 +1,96 @@
+body{
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+}
+
+.container {
+    background-color: #ccc;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    max-width: 730px;
+    height:280px;
+    background-color: rgba(255, 68, 0, 0.509);
+}
+
+.main .image-area{
+    background-color: pink;
+    width: 760px;
+    background:0 center no-repeat url('../../images/drawers.jpg');
+    background-size: cover;
+}
+
+.main .informative-area{
+    background-color: violet;
+    /* padding: 2.6rem 2rem; */
+    padding-top: 34px;
+    padding-inline:2.2rem;
+}
+
+.main .informative-area h1{
+    font-size: 1.3rem;
+}
+
+.main .informative-area p{
+    margin-top: 13px;
+    /* word-spacing: .1rem; */
+}
+
+.main .informative-area .description {
+    background-color: turquoise;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main .informative-area .description .avatar {
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: tomato;
+}
+
+.main .informative-area .description .avatar img{
+    border-radius: 2rem;
+    width: 40px;
+    height: 40px;
+    
+}
+
+.main .informative-area .description .avatar .person-description{
+    line-height: 5px;
+}
+
+.main .informative-area .description .share{
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    background:red;
+    height:30px;
+    width: 30px;
+    position: relative;
+}
+
+.main .informative-area .description .share .share-text{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    top: -60px;
+    width: 220px;
+    left: -100px;
+    background:var(--VD-grayish-blue);
+    padding: .7rem;
+    border-radius: 1rem;
+}
+
+/* .main .informative-area .description .share .share-text  */
