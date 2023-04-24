@@ -20,7 +20,7 @@ body{
 
 .main .image-area{
     background-color: pink;
-    width: 810px;
+    width: 790px;
     background:0 center no-repeat url('../../images/drawers.jpg');
     background-size: cover;
 }
@@ -30,7 +30,7 @@ body{
     /* padding: 2.3rem 2rem; */
     margin: 18px 0 0 25px;
     padding: 1rem;
-    padding-right: 40px;
+    padding-right: 35px;
 }
 
 .main .informative-area h1{
