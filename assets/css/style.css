@@ -20,16 +20,17 @@ body{
 
 .main .image-area{
     background-color: pink;
-    width: 760px;
+    width: 810px;
     background:0 center no-repeat url('../../images/drawers.jpg');
     background-size: cover;
 }
 
 .main .informative-area{
     background-color: violet;
-    /* padding: 2.6rem 2rem; */
-    padding-top: 34px;
-    padding-inline:2.2rem;
+    /* padding: 2.3rem 2rem; */
+    margin: 18px 0 0 25px;
+    padding: 1rem;
+    padding-right: 50px;
 }
 
 .main .informative-area h1{
@@ -37,7 +38,7 @@ body{
 }
 
 .main .informative-area p{
-    margin-top: 13px;
+    margin-top: 16px;
     /* word-spacing: .1rem; */
 }
 
@@ -69,7 +70,7 @@ body{
 }
 
 .main .informative-area .description .share{
-    display: flex;
+    display: none;
     align-self: flex-end;
     align-items: center;
     justify-content: center;
@@ -85,12 +86,24 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    top: -60px;
-    width: 220px;
-    left: -100px;
+    top: -85px;
+    width: 245px;
+    left: -110px;
     background:var(--VD-grayish-blue);
-    padding: .7rem;
-    border-radius: 1rem;
+    padding: 1rem;
+    border-radius: .6rem;
+}
+
+.main .informative-area .description .share .triangle{
+    width: 30px;
+    position: absolute;
+    top: -30px;
+    left: -7px;
+    height: 30px;
+    border-top: 10px solid var(--VD-grayish-blue);
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-bottom: 1px solid transparent;
 }
 
 /* .main .informative-area .description .share .share-text  */
