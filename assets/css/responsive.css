@@ -1,0 +1,49 @@
+@media (max-width: 737px){
+
+    .container{
+        padding: 0;
+        align-items: normal;
+    }
+
+    .container .main {
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        height:510px;
+        gap: 5px;
+        width:330px;
+        background-color: white;
+    }
+
+
+
+    .main .image-area{
+        width: 100%;
+        height: 200px;
+        border-top-right-radius: 1rem;
+        border-top-left-radius: 1rem;
+    }
+    .main .description{
+        height: 32%;
+    }
+
+
+    .main .informative-area{
+        margin: 18px 0 0 25px;
+        padding: 1rem;
+        padding-right: 32px;
+    }
+
+
+    .main .informative-area{
+        text-align: left;
+    }
+
+    .main .informative-area h1{
+        font-size: 1rem;
+    }
+    .main .informative-area p{
+        /* font-size: 12.6px; */
+    }
+
+}
