@@ -1,5 +1,9 @@
 @media (max-width: 737px){
 
+    h1{
+        font-size: 13;
+    }
+
     .container{
         padding: 0;
         align-items: normal;
@@ -12,7 +16,6 @@
         height:510px;
         gap: 5px;
         width:330px;
-        background-color: white;
     }
 
 
@@ -22,6 +25,8 @@
         height: 200px;
         border-top-right-radius: 1rem;
         border-top-left-radius: 1rem;
+        border-bottom-left-radius: 0;
+        background-position: 0 -20px;
     }
     .main .description{
         height: 32%;

@@ -16,12 +16,15 @@ body{
     display: flex;
     max-width: 730px;
     height:280px;
+    background-color: white;
 }
 
 .main .image-area{
     width: 790px;
     background:0 center no-repeat url('../../images/drawers.jpg');
     background-size: cover;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 .main .informative-area{
@@ -36,7 +39,6 @@ body{
 
 .main .informative-area p{
     margin-top: 13px;
-    /* word-spacing: .1rem; */
 }
 
 .main .informative-area .description {
