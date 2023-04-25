@@ -19,6 +19,7 @@ p{
 }
 
 .main {
+    position: relative;
     border-radius: 1rem;
     display: flex;
     max-width: 730px;
@@ -89,21 +90,6 @@ p{
     width: 32px;
     cursor: pointer;
 }
-
-/* #image-seta{
-    filter: brightness(1000%);
-} */
-
-/* TO DO Catch the button event-listener and .share-text display:flex */
-
-/* .main .informative-area .description .share .image-click:target ~ .share-text{
-    display: flex;
-} */
-
-/* TO DO change the brightness of the share img to 1000% and background of(image-click) to --VD-grayish-blue */
-
-
-
 
 .main .informative-area .description .share .share-text{
     position: absolute;

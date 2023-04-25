@@ -1,4 +1,4 @@
-@media (max-width: 737px){
+@media (max-width: 1000px){
 
     h1{
         font-size: 13;
@@ -47,8 +47,42 @@
     .main .informative-area h1{
         font-size: 1rem;
     }
-    .main .informative-area p{
-        /* font-size: 12.6px; */
+
+    .main .informative-area .description {
+        position: relative;
     }
 
+    .main .informative-area .description .avatar {
+        display: flex;
+    }
+
+    .main .informative-area .description .share{
+        position: absolute;
+        /* background-color: var(--VD-grayish-blue); */
+        width: 332px;
+        height: 78px;
+        bottom: -10px;
+        left: -42px;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+    .main .informative-area .description .share .image-click{
+        position: absolute;
+        right: 30px;
+        bottom: 30px;
+    }
+
+    .main .informative-area .description .share .share-text{
+        position: absolute;
+        display: flex;
+        height: 60px;
+        left: 0;
+        display: none;
+        top: 5px;
+    }
+    
+    .main .informative-area .description .share .triangle{
+        display: none;
+    }
+    
 }
