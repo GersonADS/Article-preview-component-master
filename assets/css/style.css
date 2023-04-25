@@ -4,6 +4,13 @@ body{
     background-color: var(--L-grayish-blue);
 }
 
+h1,h4{
+    color: var(--VD-grayish-blue);
+}
+
+p{
+    color: var(--Grayish-blue);
+}
 .container {
     min-height: 100vh;
     display: flex;
@@ -84,9 +91,16 @@ body{
     cursor: pointer;
 }
 
+/* TO DO Catch the button event-listener and .share-text display:flex */
+
+/* .main .informative-area .description .share .image-click:target ~ .share-text{
+    display: flex;
+} */
+
 .main .informative-area .description .share .share-text{
     position: absolute;
     display: none;
+    color: var(--Grayish-blue);
     align-items: center;
     justify-content: space-evenly;
     top: -80px;
